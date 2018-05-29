@@ -1,0 +1,79 @@
+.login-wrapper {
+	overflow-x: hidden;
+}
+
+.login-wrapper .bg-content {
+	background-image: url(/style/img/login-bg.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 640px;
+	background-position: 0 -18px;
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+
+}
+
+.login-wrapper .login {
+	position: absolute;
+	top: 200px;
+	right: 106px;
+	width: 400px;
+	height: 440px;
+	border: 12px solid #dedede;
+	z-index: 2;
+}
+
+.login-wrapper .login-content {
+	background: #fff;
+	height: 100%;
+}
+
+.login-wrapper .login-content img {
+	margin: 40px 0 15px 105px;
+	width: 200px;
+}
+
+.login-wrapper .login-content form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.login-wrapper .login-content form .form-group {
+	position: relative;
+}
+
+.login-wrapper .login-content form input[type="button"] {
+	width: 100%;
+}
+
+.login-wrapper .login-content form > .form-group:nth-child(1) {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.login-wrapper .login-content form > .form-group:nth-child(2) {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.login-wrapper i.fa-user,.login-wrapper i.fa-lock {
+	color: #777;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	font-size: 18px;
+}
+
+.login-wrapper .text-description h1 {
+	font-size: 42px;
+	margin-left: 40px;
+	margin-top: -45px;
+}
+
+.login-wrapper .text-description h2 {
+	color: #939292;
+	font-size: 34px;
+	margin-left: 50px;
+}
